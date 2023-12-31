@@ -1,0 +1,178 @@
+/* Styling for the navigation bar */
+.navbar {
+    background-color: transparent;
+    overflow: hidden;
+    text-align: right;
+    padding: 30px 10px;
+  }
+  
+  .navbar a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    margin-left: 50px; 
+    margin-right: 10px; 
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif; 
+  }
+  
+  .navbar a span {
+    margin-left: 5px;
+  }
+  
+  .navbar a i {
+    margin-right: 5px;
+  }
+  
+  
+  .navbar a:hover {
+    background-color: transparent;
+    color: #D1884F;
+  }
+  .additional-text {
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    max-height: 150px; 
+    margin: 0px 0; 
+    padding: 0; 
+    border: 0 solid transparent; 
+  }
+  
+  .additional-text.show-full {
+    max-height: none; 
+    border: 0 solid transparent; 
+    padding: 0; /
+  }
+  
+  .see-more-btn {
+    background: none;
+    color: #008AAA;
+    border: none;
+    padding: 0;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 10px; 
+  }
+  
+  
+  .additional-text p {
+    margin: 5px 0; 
+  }
+
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  
+  .left-content {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50px; 
+  }
+
+  
+  .bigger-text {
+    font-size: 38px;
+    color: #008AAA;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px; 
+  }
+
+  /* Styling for Data Scientist */
+  .data-scientist {
+    color: #D1884F; 
+  }
+
+  /* Styling for App Developer */
+.app-developer {
+  color: #D1884F; 
+}
+  /* Styling for 'and a' */
+  .and-a {
+    color: #008AAA; 
+  }
+    .additional-text {
+    font-size: 18px; 
+    color: black; 
+    font-family: 'Poppins', sans-serif;
+  }
+  /* New styling for text on the left */
+  .left-content {
+    float: left;
+    margin-top: 50px;
+    margin-left: 150px; 
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif; 
+    color: #3BBADB;
+  }
+  
+  /* New styling for the additional text */
+  .bigger-text {
+    font-size: 30px;
+    font-weight: bold;
+    color: #008AAA;
+    font-family: 'Poppins', sans-serif; 
+  }
+ 
+ 
+
+/* buttons.css */
+.button-container {
+    align-items: center;
+    position: absolute;
+    left: 210px; 
+    top: 100%; 
+    transform: translateY(-350%);
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 7px 15px; 
+    margin-right: 25px;
+    margin-bottom: 15px; 
+    background-color: white;
+    color: #008AAA;
+    border: 1px solid #008AAA; 
+    border-radius: 6px; 
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .button:hover {
+    background-color: #008AAA;
+    color: white;
+  }
+
+  
+.image-container {
+    position: fixed;
+    top: 25%; 
+    
+    right: 300px; 
+    width: 300px; 
+    
+    
+  }
+  
+  .image-container img {
+    width: 100%; 
+  height: auto; 
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+    margin: 20px auto; 
+    border: 2px solid #008AAA;
+    border-radius: 12px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease; 
+}
+.image-container img:hover {
+    transform: scale(1.05); 
+  }
+  
+  
+  
