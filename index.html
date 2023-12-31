@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+
+
+    
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <a href="#home"><i class="fas fa-home"></i> <span>Home</span></a>
+    <a href="#about"><i class="fas fa-user"></i> <span>About Me</span></a>
+    <a href="#contact"><i class="fas fa-phone"></i> <span>Contact Me</span></a>
+  </div>
+  <div class="left-content">
+    <p>Welcome to my site</p>
+    <p class="bigger-text">Hi, I'm Dina, a <span class="data-scientist">Data Scientist</span> <span class="and-a">and a</span></p>
+    <p class="bigger-text"> <span class="app-developer">App Developer </span>  <span class="specific-word2"> by Heart</span></p>
+    <div class="additional-text" id="show-less">
+        <p>
+            I am an iOS developer and a Data Scientist. I have experience in   
+            </p>
+            Data analysis, studying data, and handling complex data.
+            </p>
+             I’m always curious about data 📊 Understanding the power of data unlocks 
+            </p>
+            new possibilities and revolutionizes the way we understand the world.
+        </p>
+        </div>
+        <div class="additional-text" id="show-more" style="display: none;">
+          <p>
+            I finally found my passion in building mobile applications on iOS.
+        </p>
+             Additionally, I’m highly skilled in app flow, layout,and research.
+        </p>
+             All I knew that creating an impact has always been a passion for me.
+          </p>
+        
+    </div>
+    <button class="see-more-btn" onclick="toggleText()">See More</button>
+  </div>
+<!-- New buttons -->
+<div class="button-container">
+    <a href="#" class="button">Hire Me!</a>
+    <a href="#" class="button">See My Projects</a>
+  </div>
+</div>
+<!-- Image container -->
+<div class="image-container">
+    <img src="assests/dina-img.jpeg" alt="myPhoto">
+  </div>
+</body>
+</html>
+  <script>
+    function toggleText() {
+      var showMore = document.getElementById('show-more');
+      var button = document.querySelector('.see-more-btn');
+
+      if (showMore.style.display === 'none') {
+        showMore.style.display = 'block';
+        button.textContent = 'See Less';
+      } else {
+        showMore.style.display = 'none';
+        button.textContent = 'See More';
+      }
+    }
+    
+  </script>
+</body>
+</html>
+
+
